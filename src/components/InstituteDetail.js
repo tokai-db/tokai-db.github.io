@@ -37,7 +37,7 @@ function InstituteDetail() {
   }, [id]);
 
   const updateTokais = (newTokai) => {
-    window.location.reload();
+    // window.location.reload();
   };
 
   const filteredTokais = tokais.filter(
