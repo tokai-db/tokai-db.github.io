@@ -4,9 +4,7 @@ import { toast } from "react-toastify";
 import { Icon } from "@iconify/react";
 
 const verifyAdmin = (password) => {
-  alert(process.env.REACT_APP_ADMIN_PASSWORD);
   const adminPassword = process.env.REACT_APP_ADMIN_PASSWORD;
-  alert(password);
   return password == adminPassword;
 };
 
